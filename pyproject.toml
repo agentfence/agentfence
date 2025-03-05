@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "agentfence_probes"
+version = "0.1.0"
+description = "A Python library for testing and identifying security vulnerabilities in AI agents."
+authors = ["Haggai Shachar"]
+readme = "README.md"
+packages = [{ include = "agentfence_probes" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.3.7"
+langchain = "^0.3.20"
+langgraph = "^0.3.5"
+langchain_community = "^0.3.19"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+black = "^25.1.0"
+mypy = "^1.15.0"
+pylint = "^3.3.4"
+
+[tool.poetry.extras]
+dialogflow = ["google-auth", "google-cloud-dialogflow-cx"]
+#langchain = ["langchain", "langgraph", "langchain-openai"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
