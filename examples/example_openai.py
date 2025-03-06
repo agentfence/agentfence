@@ -2,10 +2,10 @@ import os
 from dotenv import load_dotenv
 from typing import List
 
-from agentfence_probes.evaluators.llm_evaluator import LLMEvaluator
-from agentfence_probes.connectors.openai_agent import OpenAIAgent
-from agentfence_probes.probes import *
-from agentfence_probes.run_probes import run_security_probes
+from agentfence.evaluators.llm_evaluator import LLMEvaluator
+from agentfence.connectors.openai_agent import OpenAIAgent
+from agentfence.probes import *
+from agentfence.run_probes import run_security_probes
 
 
 def main():

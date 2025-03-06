@@ -1,4 +1,4 @@
-from agentfence_probes.evaluators.base_evaluator import BaseEvaluator
+from agentfence.evaluators.base_evaluator import BaseEvaluator
 from openai import OpenAI
 import os
 from dotenv import load_dotenv

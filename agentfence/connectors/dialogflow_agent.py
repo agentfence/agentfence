@@ -5,7 +5,7 @@ import logging
 from typing import Dict, Optional
 from google.oauth2 import service_account
 from google.auth.transport.requests import Request
-from agentfence_probes.connectors.base_agent import BaseAgent
+from agentfence.connectors.base_agent import BaseAgent
 
 
 class DialogflowCXAgentWrapper(BaseAgent):

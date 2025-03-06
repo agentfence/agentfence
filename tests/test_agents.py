@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 from langchain_core.tools import tool
 from langchain_openai import ChatOpenAI
 from langgraph.prebuilt import create_react_agent
-from agentfence_probes.connectors.openai_agent import OpenAIAgent
-from agentfence_probes.connectors.langgraph_agent import LangGraphAgent
-from agentfence_probes.connectors.dialogflow_agent import DialogflowCXAgentWrapper
+from agentfence.connectors.openai_agent import OpenAIAgent
+from agentfence.connectors.langgraph_agent import LangGraphAgent
+from agentfence.connectors.dialogflow_agent import DialogflowCXAgentWrapper
 
 # Load environment variables
 load_dotenv()

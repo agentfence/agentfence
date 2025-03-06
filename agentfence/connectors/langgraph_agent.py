@@ -1,6 +1,6 @@
 from typing import Dict, Any, Optional, List
 from langchain_core.runnables import Runnable
-from agentfence_probes.connectors.base_agent import BaseAgent
+from agentfence.connectors.base_agent import BaseAgent
 from langchain_core.messages import HumanMessage, BaseMessage
 import logging
 

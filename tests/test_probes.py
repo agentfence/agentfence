@@ -1,10 +1,10 @@
 import pytest
 from typing import Optional, Dict
 
-from agentfence_probes.probes import *
-from agentfence_probes.evaluators.llm_evaluator import LLMEvaluator
-from agentfence_probes.evaluators.regex_evaluator import RegexEvaluator
-from agentfence_probes.connectors.base_agent import BaseAgent
+from agentfence.probes import *
+from agentfence.evaluators.llm_evaluator import LLMEvaluator
+from agentfence.evaluators.regex_evaluator import RegexEvaluator
+from agentfence.connectors.base_agent import BaseAgent
 
 
 @pytest.fixture

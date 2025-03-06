@@ -1,10 +1,10 @@
 from abc import ABC
 from typing import Optional, List
 import logging
-from agentfence_probes.result import ProbeResult
-from agentfence_probes.connectors.base_agent import BaseAgent
-from agentfence_probes.evaluators.base_evaluator import BaseEvaluator
-from agentfence_probes.evaluators.llm_evaluator import LLMEvaluator
+from agentfence.result import ProbeResult
+from agentfence.connectors.base_agent import BaseAgent
+from agentfence.evaluators.base_evaluator import BaseEvaluator
+from agentfence.evaluators.llm_evaluator import LLMEvaluator
 
 
 class BaseProbe(ABC):

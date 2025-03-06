@@ -2,8 +2,8 @@ import logging
 from typing import List
 from dotenv import load_dotenv
 
-from agentfence_probes.connectors.base_agent import BaseAgent
-from agentfence_probes.probes.base_probe import BaseProbe
+from agentfence.connectors.base_agent import BaseAgent
+from agentfence.probes.base_probe import BaseProbe
 
 
 def run_security_probes(agent: BaseAgent, probes: List[BaseProbe], agent_name: str):

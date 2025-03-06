@@ -1,6 +1,6 @@
 import pytest
-from agentfence_probes.evaluators.llm_evaluator import LLMEvaluator
-from agentfence_probes.evaluators.regex_evaluator import RegexEvaluator
+from agentfence.evaluators.llm_evaluator import LLMEvaluator
+from agentfence.evaluators.regex_evaluator import RegexEvaluator
 
 
 @pytest.fixture

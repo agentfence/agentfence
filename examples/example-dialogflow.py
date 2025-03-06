@@ -2,10 +2,10 @@ import os
 from typing import List
 from dotenv import load_dotenv
 
-from agentfence_probes.evaluators.llm_evaluator import LLMEvaluator
-from agentfence_probes.connectors.dialogflow_agent import DialogflowCXAgentWrapper
-from agentfence_probes.probes import *
-from agentfence_probes.run_probes import run_security_probes
+from agentfence.evaluators.llm_evaluator import LLMEvaluator
+from agentfence.connectors.dialogflow_agent import DialogflowCXAgentWrapper
+from agentfence.probes import *
+from agentfence.run_probes import run_security_probes
 
 
 def main():

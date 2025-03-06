@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "agentfence_probes"
+name = "agentfence"
 version = "0.1.0"
 description = "A Python library for testing and identifying security vulnerabilities in AI agents."
 authors = ["Haggai Shachar"]
 readme = "README.md"
-packages = [{ include = "agentfence_probes" }]
+packages = [{ include = "agentfence" }]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.13"

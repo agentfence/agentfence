@@ -2,7 +2,7 @@ import os
 from openai import OpenAI
 from typing import List, Dict, Optional
 
-from agentfence_probes.connectors.base_agent import BaseAgent
+from agentfence.connectors.base_agent import BaseAgent
 
 
 class OpenAIAgent(BaseAgent):

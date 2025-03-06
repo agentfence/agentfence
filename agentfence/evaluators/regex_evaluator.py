@@ -1,5 +1,5 @@
 import re
-from agentfence_probes.evaluators.base_evaluator import BaseEvaluator
+from agentfence.evaluators.base_evaluator import BaseEvaluator
 
 
 class RegexEvaluator(BaseEvaluator):

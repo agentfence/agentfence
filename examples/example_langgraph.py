@@ -6,10 +6,10 @@ from langchain_openai import ChatOpenAI
 from langchain_core.tools import tool
 from langgraph.prebuilt import create_react_agent
 
-from agentfence_probes.connectors.langgraph_agent import LangGraphAgent
-from agentfence_probes.probes import *
-from agentfence_probes.evaluators.llm_evaluator import LLMEvaluator
-from agentfence_probes.run_probes import run_security_probes
+from agentfence.connectors.langgraph_agent import LangGraphAgent
+from agentfence.probes import *
+from agentfence.evaluators.llm_evaluator import LLMEvaluator
+from agentfence.run_probes import run_security_probes
 
 # Load environment variables
 load_dotenv()

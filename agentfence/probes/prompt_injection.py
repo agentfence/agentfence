@@ -1,6 +1,6 @@
 from typing import List, Optional
-from agentfence_probes.probes.base_probe import BaseProbe
-from agentfence_probes.evaluators.base_evaluator import BaseEvaluator
+from agentfence.probes.base_probe import BaseProbe
+from agentfence.evaluators.base_evaluator import BaseEvaluator
 
 
 class PromptInjectionProbe(BaseProbe):
