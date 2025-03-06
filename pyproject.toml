@@ -3,8 +3,13 @@ name = "agentfence"
 version = "0.1.0"
 description = "A Python library for testing and identifying security vulnerabilities in AI agents."
 authors = ["Haggai Shachar"]
+license = "MIT"
 readme = "README.md"
 packages = [{ include = "agentfence" }]
+repository = "https://github.com/agentfence/agentfence"
+homepage = "https://agentfence.ai"
+keywords = ["AI security", "agent security"]
+
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.13"
@@ -23,7 +28,6 @@ pylint = "^3.3.4"
 
 [tool.poetry.extras]
 dialogflow = ["google-auth", "google-cloud-dialogflow-cx"]
-#langchain = ["langchain", "langgraph", "langchain-openai"]
 
 [build-system]
 requires = ["poetry-core"]
